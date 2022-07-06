@@ -1,0 +1,11 @@
+Git Cmnds
+
+git init
+git status
+git add . 
+git status
+git commit -m "First Commit"
+git status
+git log --oneline (checking the logs ) 
+git remote add origin url
+git push -u origin master

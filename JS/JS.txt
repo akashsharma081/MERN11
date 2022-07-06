@@ -1,0 +1,21 @@
+1. if we want to change the value by id it change very easliy instead of class let take an example 
+<script>
+  function myfun(){
+    document.getElementsById('test').innerHTML="change"
+  }
+</script>
+<p id="test">Hello world</p>
+<button onclick="myfun()">click me </button>        
+value change automatically when we click on button 
+
+if we talk about class than 
+
+<script>
+  function myfun(){
+    document.getElementsByClassName('test')[0].innerHTML="changeon"
+  }
+</script>
+<p class="test">Hello world</p>
+<button onclick="myfun()">click me </button>                    
+
+Here in above sytanx in p tags in className they dont change the value it show in form of array we want to change the value we put index number after ClassName('test').[0] after that we change the value 
